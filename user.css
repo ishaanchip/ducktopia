@@ -1,0 +1,77 @@
+html{
+  background-color:rgb(112,128,144);
+}
+
+
+h1{
+  margin: 0 auto;
+  text-align:center;
+  padding-top:4%;
+  letter-spacing: 0.4rem;
+  font-size:5rem;
+  font-family: 'Permanent Marker', cursive;
+  color:rgb(137, 207, 240);
+  
+}
+img{
+  width:30vh;
+  height:auto;
+}
+main{
+  text-align:center;
+  padding-top:3%;
+}
+
+input{
+  text-align:center;
+  width:auto;
+  height:auto;
+  border:none;
+  outline:none;
+  background-color:rgb(112,128,144);
+  border: 1.1rem solid black;
+  font-family:"Rajdhani",sans-serif;
+  font-size:3rem;
+  font-weight:500;
+  color:white;
+}
+.warning{
+  margin:1% auto;
+  text-align:center;
+  border: 2px solid black;
+  width:40rem;
+  height:2.5rem;
+  background-color:red;
+  color:white;
+  border-radius:10%;
+  font-size:2rem;
+  font-family:"Rajdhani",sans-serif;
+}
+button{
+  width:4em;
+  height:4rem;
+  background-color:black;
+  color:rgb(137, 207, 240);
+  transition:0.2s;
+  outline:none;
+  border:0.1rem solid whitesmoke;
+  font-size:3rem;
+}
+button:hover{
+  background-color:rgb(137, 207, 240);
+  color:white;
+  border:0.1rem solid black;
+  transition:0.2s;
+  transform:translateY(-0.4rem);
+  cursor:pointer;
+}
+
+.confirm{
+  padding-top:4%;
+}
+.hide{
+  display:none;
+}
+.error{
+  color:red;
+}

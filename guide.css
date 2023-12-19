@@ -1,0 +1,71 @@
+html{
+    background-color:beige;
+    text-align:center;
+  }
+  h1{
+    font-size:3.5rem;
+    font-family:'Alata', sans-serif;
+    color:rgb(137, 207, 240);
+    text-shadow:2px 2px 0px black;
+  }
+  .overview{
+    font-size:1.8rem;
+    padding-left:10%;
+    padding-right:10%;
+    letter-spacing: 0.1rem;
+    line-height:3rem;
+    font-family:'Dhurjati', serif;
+    color:black;
+  }
+  .leftButton{
+    margin-left:2%;
+  }
+  button{
+    width:4rem;
+    height:2rem;
+    background-color:black;
+    color:white;
+    transition:0.2s;
+  }
+  button:hover{
+    color:black;
+    background-color:white;
+    transition:0.2s;
+    transform:translateY(-0.4rem);
+    cursor:pointer;
+  }
+  footer{
+    display:flex;
+    justify-content:center;
+    padding-top:2%;
+    border-top:3px solid white;
+    margin-top:1%;
+  }
+  .duckntext{
+    display:flex;
+    margin-top:1%;
+  }
+  .duck{
+    width:5rem;
+    height:auto;
+    transition:0.3s;
+  }
+  .text-box{
+    width:30rem;
+    height:2rem;
+    background-color:#ff4b54;
+    border-radius:20%;
+  }
+  .duck-text{
+    font-size:1.3rem;
+    margin:0 auto;
+    text-align:center;
+    justify-content:center;
+    font-family: 'Happy Monkey', cursive;
+    color:white;
+  }
+  .duck:hover{
+    transform:translateY(-2rem);
+    transition:0.3s;
+    cursor:pointer;
+  }

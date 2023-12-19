@@ -1,0 +1,110 @@
+html{
+    background-color:rgba(240,185,130,255);
+    text-align:center;
+  }
+  h1{
+    font-size:2.5rem;
+    color:white;
+    font-family: 'Abril Fatface', cursive;
+    margin-top: 3%;
+  }
+  .the-question{
+    font-family:'Righteous',sans-serif;
+    font-size:2rem;
+  }
+  .question-box{
+    margin:0 auto;
+    width:80rem;
+    height:25rem;
+    background-color:white;
+    margin-top:4%;
+    border:0.5rem solid black;
+  }
+  input{
+    border:none;
+    border-bottom:2px solid rgba(218,64,71,0.8);
+    width:12rem;
+    text-align:center;
+    outline:none;
+    font-size:1.5rem;
+    margin-top:5%;
+    margin-bottom:3%;
+    font-family:'Alata',sans-serif;
+  }
+  input:hover{
+    outline:none;
+  }
+  .no-spinner::-webkit-inner-spin-button,
+  .no-spinner::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      appearance: none;
+      margin: 0; 
+  }
+  .guide{
+    font-family:'Alata',sans-serif;
+    margin-top:6%;
+  }
+   .rightButton{
+      width:4rem;
+      height:2rem;
+      background-color:black;
+      color:white;
+      transition:0.2s;
+      margin-top:3%;
+    }
+    .rightButton:hover{
+      color:black;
+      background-color:white;
+      transition:0.2s;
+      transform:translateY(-0.4rem);
+      cursor:pointer;
+    }
+    .hide{
+      display:none;
+      transition:0.3s;
+    }
+  
+  
+  
+  
+  footer{
+    display:flex;
+    justify-content:center;
+    border-top:3px solid white;
+    margin-top:1%;
+  }
+  .duckntext{
+    display:flex;
+    margin-top:2%;
+  }
+  .duck{
+    width:5rem;
+    height:auto;
+    transition:0.3s;
+  }
+  .text-box{
+    width:30rem;
+    height:2rem;
+    background-color:#ce1c0d;
+    border-radius:20%;
+  }
+  .duck-text{
+    font-size:1.1rem;
+    margin:0 auto;
+    text-align:center;
+    justify-content:center;
+    font-family: 'Happy Monkey', cursive;
+    color:white;
+  }
+  .duck:hover{
+    transform:translateY(-2rem);
+    transition:0.3s;
+    cursor:pointer;
+  }
+  
+  .unclickable {
+      pointer-events: none;
+  }
+  .correctDuckText{
+    background-color:lightgreen;
+  }
