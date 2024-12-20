@@ -1,0 +1,31 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.loading-outer-shell{
+    width:100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.outer-bar {
+    margin: 0 auto;
+    width:50%;
+    height: 15px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+  }
+  
+  .inner-bar {
+    height: 15px;
+    background-color: rgb(210, 180, 89);
+    border-radius: 10px;
+  }
+
+  .ducktopia-cart{
+    position: absolute;
+    top:50%;
+    left:20%;
+  }

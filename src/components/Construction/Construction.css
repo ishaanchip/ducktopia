@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Monomaniac+One&display=swap");
+.ducktopia-loading-backdrop{
+    width:100vw;
+    height:100vh;
+    background-color: rgba(50,60,70,255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(244, 92, 92);
+    color:white;
+}
+
+.ducktopia-loading-backdrop h1{
+    font-size: 85px;
+    font-family: "Rubik", sans-serif;
+    margin-top:-5%;
+    margin-bottom: 3%;
+}
+
+.ducktopia-loading-backdrop p{
+    font-size: 15px;
+    font-family: "Rubik", sans-serif;
+    margin-top: 2%;  
+}
+
+
+.ducktopia-construction-backdrop{
+    background-color: rgb(210, 180, 89);
+    width:100vw;
+    height:100vh;
+    text-align: center;
+}
+
+.ducktopia-construction-header{
+    width:100vw;
+    height:15vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+.ducktopia-construction-header h1{
+    margin-left: 5%;
+    font-size: 45px;
+    font-family: "Rubik", sans-serif;
+}
+
+.ducktopia-construction-backdrop img{
+    margin-left: 12%;
+}
+
+.ducktopia-construction-backdrop p{
+    color:white;
+    font-family: 'Monomaniac One', sans-serif;
+    font-size: 25px;
+}
+
+
+

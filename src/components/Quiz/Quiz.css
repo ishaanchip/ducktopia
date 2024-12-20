@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Monomaniac+One&display=swap");
+
+.ducktopia-quiz-loading-backdrop{
+    width:100vw;
+    height:100vh;
+    background-color: rgba(50,60,70,255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(54, 51, 51);
+    color:white;
+}
+
+.ducktopia-quiz-loading-backdrop h1{
+    font-size: 85px;
+    font-family: "Rubik", sans-serif;
+    margin-top:-5%;
+    margin-bottom: 3%;
+}
+
+.ducktopia-quiz-loading-backdrop p{
+    font-size: 15px;
+    font-family: "Rubik", sans-serif;
+    margin-top: 2%;  
+}
+
+
+.ducktopia-quiz-backdrop{
+    background-color: rgb(209, 207, 207);
+    width:100vw;
+    height:100vh;
+    text-align: center;
+}
+
+.ducktopia-quiz-header{
+    width:100vw;
+    height:15vh;
+    background-color: black;
+    color:white;
+    display: flex;
+    align-items: center;
+}
+
+.ducktopia-quiz-header h1{
+    margin-left: 5%;
+    font-size: 45px;
+    font-family: "Rubik", sans-serif;
+    color: whitesmoke;
+}
+
+
+.quiz-shell{
+    display: flex;
+}
+
+.quiz-question-area{
+    margin-left:2%;
+    width:1000px;
+    margin-top:5vh;
+    margin-bottom: 5vh;
+    height:72vh;
+    font-family: "Rubik", sans-serif;
+}
+
+.quiz-question-area .current-question{
+    margin-top: 1%;
+    margin-bottom: 2%;
+    margin-left: 1%;
+    margin-right:5%;
+    padding:0.5%;
+    line-height: 1.4;
+    font-size: 22px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.quiz-question-area .answer-choices{
+    height:40vh;
+    margin-top:1%;
+    margin-left:5%;
+    margin-right:5%;
+}
+
+.quiz-question-area .answer-choice{
+    text-align: left;
+    height:8.1vh;
+    padding-left: 0.5%;
+    margin-bottom:2vh;
+    line-height: 1.65;
+    border:2px solid black;
+    position: relative;
+    overflow: hidden;
+}
+
+.correct-highlight-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(46, 238, 178);
+    z-index: 0;
+}
+
+.incorrect-highlight-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(238, 59, 46);
+    z-index: 0;
+}
+
+.quiz-question-area .answer-choice p {
+    position: relative;
+    z-index: 1;
+}
+
+
+.quiz-outer-bar {
+    margin-top: 8vh;
+    margin-left:3%;
+    margin-right:3%;
+    height: 3vh;
+    background-color: black;
+    border-radius: 10px;
+  }
+  
+  .quiz-inner-bar {
+    height: 100%;
+    background-color: rgb(217, 70, 70);
+    border-radius: 10px;
+  }
+
+  .quiz-navigation-btn{
+    width:175px;
+    height:30px;
+    color:rgba(0, 0, 0, 0.5);
+    background-color: whitesmoke;
+    font-size:15px;
+    border:none;
+    box-shadow: 5px 5px 0px black;
+    margin-top: 5%;
+    font-weight: 700;
+    transition: 0.2s ease-in-out;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    pointer-events: none;
+ }
+ 
+ .quiz-navigation-btn:hover{
+     color:rgba(0, 0, 0,1);
+     transition: 0.5s ease-in-out;
+ }
+
+ .quiz-navigation-btn.visible {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+ }
+
+.quiz-navigation-btn {
+    animation: fadeIn 0.3s ease forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes coinTransform {
+    from{
+        transform: rotateY(540deg);
+    }
+    to{
+        transform: rotateY(0deg);
+    }
+}
+
+.quiz-helper-area{
+    width:400px;
+    height: 85vh;
+    margin-left:2%;
+    background-color: rgb(217, 70, 70);
+}
+
+.quiz-helper-area div{
+    margin-left:5%;
+    margin-right:5%;
+    margin-top: 15%;
+}
+
+.quiz-helper-area h1, .quiz-helper-area button{
+    animation: fadeIn 0.3s ease forwards;
+}
+
+.quiz-helper-area h1{
+    color:white;
+    font-family: 'Rubik', sans-serif;
+    font-size: 26px;
+    margin-bottom: 5%;
+
+}
+
+.quiz-helper-area .coins-added-area img{
+    animation: coinTransform 1s ease forwards;
+}
+
+.quiz-helper-area .coins-text{
+    margin-top: 3%;
+    font-size:20px;
+}

@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Monomaniac+One&display=swap");
+
+.ducktopia-courses-backdrop{
+    background-color: rgb(209, 207, 207);
+    width:100vw;
+    height:100vh;
+    text-align: center;
+}
+
+.ducktopia-courses-header{
+    width:100vw;
+    height:15vh;
+    background-color: black;
+    color:white;
+    display: flex;
+    align-items: center;
+}
+
+.ducktopia-courses-header h1{
+    margin-left: 5%;
+    font-size: 45px;
+    font-family: "Rubik", sans-serif;
+    color: whitesmoke;
+}
+
+
+
+/* catalog formating */
+.ducktopia-catalog-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 2%;
+    min-height: fit-content;
+}
+
+.ducktopia-catalog-item{
+    display:flex;
+    margin:2%;
+    width:390px;
+    height:250px;
+    border-radius: 10%;
+    color:white;
+    background-color: whitesmoke;
+}
+
+.ducktopia-catalog-item img{
+    width:220px;
+    height:250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    border-radius: 5%;
+}
+
+.ducktopia-catalog-item .information{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top:10% ;
+    margin-bottom: 10%;
+    margin-left: 3%;
+    width:200px;
+    max-height:250px;
+    font-family: "Roboto Slab", serif;
+    color: black;
+}
+
+.ducktopia-catalog-item .information button{
+    width:150px;
+    height:30px;
+    margin: 0 auto;
+    border-radius: 20px;
+    border: none;
+    color:black;
+    background-color: rgb(229, 226, 226);
+    font-family: "Roboto Slab", serif;
+    font-size: 15px;
+
+}
+

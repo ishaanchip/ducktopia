@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Monomaniac+One&display=swap");
+
+.ducktopia-shop-loading-backdrop{
+    width:100vw;
+    height:100vh;
+    background-color: rgba(50,60,70,255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(231, 78, 78);
+    color:white;
+}
+
+.ducktopia-shop-loading-backdrop h1{
+    font-size: 85px;
+    font-family: "Rubik", sans-serif;
+    margin-top:-5%;
+    margin-bottom: 3%;
+}
+
+.ducktopia-shop-loading-backdrop p{
+    font-size: 15px;
+    font-family: "Rubik", sans-serif;
+    margin-top: 2%;  
+}
+
+.ducktopia-shop-backdrop{
+    background-color: rgb(209, 207, 207);
+    width:100vw;
+    height:100vh;
+    text-align: center;
+}
+
+.ducktopia-shop-header{
+    width:100vw;
+    height:15vh;
+    background-color: black;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ducktopia-shop-header h1{
+    margin-left: 5%;
+    font-size: 45px;
+    font-family: "Rubik", sans-serif;
+    color: whitesmoke;
+}
+
+.ducktopia-coin-area{
+    width:12vw;
+    margin-right: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: whitesmoke;
+    border-radius: 25px;
+}
+
+.ducktopia-coin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+}
+
+
+.ducktopia-coin-count{
+    font-size: 25px;
+    color:black;
+    margin: 0 auto;
+    margin-top: -2%;
+    font-family: 'Monomaniac One', sans-serif;
+}
+
+
+
+.shop-shell{
+    display: flex;
+    margin-top: 5vh;
+}
+
+.shop-skin-area{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width:60vw;
+    height:70vh;
+    margin: 0 auto;    
+    overflow: scroll;
+}
+
+.skin-item{
+    width:24vw;
+    height:80%;
+    border-radius: 5%;
+    background-color:rgb(231, 78, 78);
+}
+
+.skin-display{
+    height:75%;
+    text-align: left;
+    color:white;
+    margin-left: 5%;
+    margin-top: 1%;
+}
+
+.skin-display h1{
+    font-family: "Rubik", sans-serif;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+.skin-display img{
+    margin-left: 10%;
+    width:100%;
+}
+
+
+.skin-purchase{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+    height:25%;
+    background-color: rgb(257, 96, 96);
+}
+
+.skin-coin-area,  .misc-coin-area{
+    width:12vw;
+    margin-right: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color:white;
+    border-radius: 25px;
+}
+
+.skin-coin, .misc-coin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+}
+
+.skin-coin-count,  .misc-coin-count{
+    font-size: 22px;
+    margin: 0 auto;
+    margin-top: -2%;
+    font-family: 'Monomaniac One', sans-serif;
+}
+
+.skin-purchase button{
+    width:50%;
+    height:35%;
+    font-size: 22px;
+    font-family: 'Monomaniac One', sans-serif;
+}
+
+.shop-misc-area{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width:30vw;
+    height:75vh;
+    margin: 0 auto;
+    overflow: scroll;
+}
+
+.misc-item{
+    width:18vw;
+    height:32vh;
+    background-color: rgb(89, 206, 128);
+    border-radius:5% ;
+}
+
+.misc-display{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height:85%;
+    color:white;
+}
+
+.misc-display h1{
+    font-size: 26px;
+    font-family: "Rubik", sans-serif;
+}
+
+
+
+.misc-purchase{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+    height:20%;
+    background-color: rgb(109, 226, 148);;
+}
+
+.misc-purchase button{
+    width:50%;
+    height:55%;
+    font-family: 'Monomaniac One', sans-serif;
+}
